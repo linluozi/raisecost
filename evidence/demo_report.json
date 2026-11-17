@@ -1,0 +1,31 @@
+{
+  "baseline_seconds": 0.009569279849529266,
+  "calibration_ns_per_raise": 201.03142596781254,
+  "estimated_tax_seconds": 0.0024131812373176216,
+  "profiled_seconds": 0.03243640996515751,
+  "python": "3.12.3",
+  "raise_types": {
+    "KeyError": 12004
+  },
+  "tax_share_of_baseline": 0.2521800255884805,
+  "tool": "raisecost",
+  "top_handler_sites": [
+    {
+      "file": "examples/demo_miss.py",
+      "function": "resolve",
+      "handled": 12004,
+      "line": 18
+    }
+  ],
+  "top_raise_sites": [
+    {
+      "estimated_seconds": 0.0024131812373176216,
+      "file": "examples/demo_miss.py",
+      "function": "resolve",
+      "line": 17,
+      "raises": 12004
+    }
+  ],
+  "total_handled": 12004,
+  "total_raises": 12004
+}

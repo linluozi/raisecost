@@ -1,0 +1,15 @@
+rows=4000 columns=6 cells=24000
+rows=4000 columns=6 cells=24000
+raisecost raisecost  CPython 3.12.3
+raises: 12004   handled: 12004   calibration: 201.0 ns/raise
+estimated exception tax: 2.413 ms
+baseline runtime: 9.569 ms   tax share: 25.22%
+raise types: KeyError=12004
+
+top raise sites:
+   1. examples/demo_miss.py:17 in resolve  12004 raises  ~2.413 ms
+
+top handler sites:
+   1. examples/demo_miss.py:18 in resolve  12004 handled
+
+wrote evidence/demo_report.json
