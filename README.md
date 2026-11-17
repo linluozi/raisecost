@@ -26,7 +26,8 @@ Requires CPython 3.12 or newer (`python3 -V`).
 python3 -m raisecost run --baseline examples/demo_miss.py
 ```
 
-Real output from this repository (AMD EPYC 7K62, CPython 3.12.3, 2026-11-18):
+Real output from this repository (AMD EPYC 7K62, CPython 3.12.3, 2026-11-18; one run -- wall
+clock and the calibration vary by a few percent between runs, the counts do not):
 
 ```
 raisecost raisecost  CPython 3.12.3
